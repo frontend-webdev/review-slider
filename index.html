@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Slider</title>
+		<link rel="stylesheet" href="https://unpkg.com/open-props"/>
+    <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/scripts.js"></script>
+  </head>
+  <body>
+    <section class="review">
+      <div class="review__container">
+        <div class="review__header">
+          <h2 class="review__title">What our clients say</h2>
+          <p class="review__subtitle">
+            We partner with some pretty amazing people! Here's what they say
+            about us.
+          </p>
+        </div>
+
+        <div class="review__content">
+          <!-- review__arrow_left -->
+          <button class="review__arrow review__arrow_left" id="arrow-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 256 256">
+              <rect width="256" height="256" fill="none"></rect>
+              <line x1="216" y1="128" x2="40" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+              <polyline points="112 56 40 128 112 200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+            </svg> 
+          </button>
+
+          <!-- review__info -->
+          <div class="review__info">
+            <!-- review__info-inner man-01 -->
+            <!-- <div class="review__info-inner">
+              <div class="review__headshot">
+                <img src="images/man-01.jpg" alt="User Name" />
+              </div>
+              <p class="review__name"><strong>User Name</strong></p>
+              <p class="review__location">User Location</p>
+              <div class="review__stars">
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+              </div>
+              <p class="review__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim eveniet beatae numquam quas iusto vero, ex nam tempore officia voluptatum optio error excepturi illum possimus odit sequi laboriosam perferendis.</p>
+            </div> -->
+
+            <!-- review__info-inner woman-01 -->
+            <!-- <div class="review__info-inner">
+              <div class="review__headshot">
+                <img src="images/woman-01.jpg" alt="User Name" />
+              </div>
+              <p class="review__name"><strong>User Name</strong></p>
+              <p class="review__location">User Location</p>
+              <div class="review__stars">
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+              </div>
+              <p class="review__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim eveniet beatae numquam quas iusto vero, ex nam tempore officia voluptatum optio error excepturi illum possimus odit sequi laboriosam perferendis.</p>
+            </div> -->
+
+            <!-- review__info-inner man-02 -->
+            <!-- <div class="review__info-inner">
+              <div class="review__headshot">
+                <img src="images/man-02.jpg" alt="User Name" />
+              </div>
+              <p class="review__name"><strong>User Name</strong></p>
+              <p class="review__location">User Location</p>
+              <div class="review__stars">
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+                <img class="review__star" src="images/full-star.svg" />
+              </div>
+              <p class="review__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim eveniet beatae numquam quas iusto vero, ex nam tempore officia voluptatum optio error excepturi illum possimus odit sequi laboriosam perferendis.</p>
+            </div> -->
+          </div> 
+
+          <!-- review__arrow_right -->
+          <button class="review__arrow review__arrow_right" id="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 256 256">
+              <rect width="256" height="256" fill="none"></rect>
+              <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+              <polyline points="144 56 216 128 144 200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
