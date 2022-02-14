@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Michael Dam",
     "headshot": "images/woman-01.jpg",
-    "stars": 4,
+    "stars": 2,
     "location": "Amsterdam, Netherlands",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Warren Wong",
     "headshot": "images/man-02.jpg",
-    "stars": 4.5,
+    "stars": 3.5,
     "location": "Syndey, Australia",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim eveniet beatae numquam quas iusto vero, ex nam tempore officia voluptatum optio error excepturi illum possimus odit sequi laboriosam perferendis."
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Christopher Campbell",
     "headshot": "images/woman-02.jpg",
-    "stars": 3,
+    "stars": 3.3,
     "location": "USA, New York",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Lesly B.Juarez",
     "headshot": "images/man-03.jpg",
-    "stars": 5,
+    "stars": 2.2,
     "location": "Canada, Ottawa",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Tamara Bellis",
     "headshot": "images/woman-03.jpeg",
-    "stars": 3.5,
+    "stars": 2.9,
     "location": "Germany, Berlin",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et"
   }

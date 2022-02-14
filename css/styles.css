@@ -78,6 +78,7 @@ body {
 
 .review__subtitle {
   color: var(--text-2);
+  margin: 0 auto;
 }
 
 .review__content {
